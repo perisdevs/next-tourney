@@ -1,0 +1,18 @@
+.rounds {
+    display: flex;
+    flex-direction: row;
+}
+
+.matches {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.match {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}

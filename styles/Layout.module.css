@@ -1,0 +1,62 @@
+.header {
+    color: red;
+
+    display: flex;
+    flex-direction: column;        
+
+    border-bottom: 5px solid red;
+}
+
+.headerTop {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.user > * {
+    margin: 5px;
+}
+
+.user > a {
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar > * {
+    margin: 5px;
+}
+
+.body {
+    color: blue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+}
+
+.footer {
+    color: green;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 5px solid green;
+}

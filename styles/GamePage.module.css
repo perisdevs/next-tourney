@@ -1,0 +1,10 @@
+.tourneys {
+    color: brown;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    border: solid 5px brown;
+}

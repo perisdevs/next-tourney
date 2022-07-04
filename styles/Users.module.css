@@ -1,0 +1,11 @@
+.users {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 5px solid goldenrod;
+    max-width: 80%;
+}
+
+.user {
+    margin: 5px;
+}

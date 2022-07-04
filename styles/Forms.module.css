@@ -1,0 +1,4 @@
+.createTourney {
+    display: flex;
+    flex-direction: column;    
+}

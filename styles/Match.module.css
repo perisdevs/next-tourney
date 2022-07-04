@@ -1,0 +1,58 @@
+.match {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;  
+    border: 2px solid grey;
+}
+
+.player {
+    display: flex;
+    flex-direction: row;
+    min-width: 200px; 
+    color: black;     
+    transition-duration: 0.3s;    
+}
+
+.player:hover {
+    background-color: aqua;    
+}
+
+.player.winner {      
+    color: darkgreen;
+    background-color: mediumseagreen;   
+}
+
+.player.loser {
+    color: darkred;
+    background-color: palevioletred;
+}
+
+.player > button {
+    margin-left: auto;
+    height: max-content;
+}
+
+.player > div {
+    margin-right: auto;
+}
+
+.player > span {
+    cursor: pointer;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: grey;
+    height: max-content;
+    transition-duration: 0.3s;   
+}
+
+.player.loser > span {
+    background-color: darkred;
+    cursor: default;
+}
+
+.player.winner > span {
+    background-color: darkgreen;
+    cursor: default;
+}

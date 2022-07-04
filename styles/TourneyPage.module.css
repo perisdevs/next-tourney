@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    justify-content: center;
+
+    border-bottom: 5px solid blue;
+    min-width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;    
+    min-width: 90vw;
+}
+
+.tourneyInfo {
+    margin-right: auto;
+}
+
+.playerInfo {
+    margin-left: auto;
+    text-align: center;
+}
+
+.players {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    max-width: 40vw;
+    min-width: 40vw;    
+}
+
+.player {
+    margin: 5px;
+}
+
+.matchHistory {
+    display: flex;
+    flex-direction: column;
+    min-width: 30vw;
+    border: 5px solid black;
+}
+
+.match {
+    display: flex;
+    flex-direction: row;
+}
+
+.hPlayer {
+    display: flex;
+    align-items: center;
+
+    padding-left: 2%;
+    padding-right: 2%;
+    min-width: 50%;
+    max-width: 50%;
+}
+
+.win {
+    color: darkgreen;
+    background-color: mediumseagreen;   
+}
+
+.loss {
+    color: darkred;
+    background-color: palevioletred;
+}
